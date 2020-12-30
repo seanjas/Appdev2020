@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MyPet">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mima Pet"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtType"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:hint="Enter pet Type" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtBreed"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Ente pet Breed" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="176dp" />
+
+    <Button
+        android:id="@+id/btnAdopt"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:hint="ADOPT"
+        android:textStyle="bold" />
+
+</LinearLayout>

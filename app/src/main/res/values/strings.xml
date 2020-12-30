@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">IT117 HAMIMA A. DALANO</string>
+    <string-array name="types">
+        <item>dog</item>
+        <item>cat</item>
+        <item>snake</item>
+        <item>pokemon</item>
+    </string-array>
+    <string-array name="dog">
+        <item>German Sheperd</item>
+        <item>Bulldog</item>
+        <item>Poodle</item>
+        <item>Beagle</item>
+        <item>Labrador Retriever</item>
+        <item>Golden Retriever</item>
+        <item>Chihuahua</item>
+        <item>Siberaib Husky</item>
+        <item>Dachshund</item>
+        <item>Rottweiler</item>
+    </string-array>
+    <string-array name="cat">
+        <item>Ca Persian</item>
+        <item>British Shorthair</item>
+        <item>Maine Coon</item>
+        <item>Siamese Cat</item>
+        <item>American Shorthair</item>
+        <item>Ragdoll</item>
+        <item>Sphynx Cat</item>
+        <item>Bengal Cat</item>
+        <item>Abyssinian Cat</item>
+    </string-array>
+    <string-array name="snake">
+        <item>Scottish Fold Snake</item>
+        <item>Boa Constrictor</item>
+        <item>European Viper</item>
+        <item>Oriental Coral Snake</item>
+        <item>Scarlet King Snake</item>
+        <item>Green Tree Snake</item>
+        <item>Yellow-bellied Snake</item>
+        <item>Eastern Mud Snake</item>
+        <item>Rhinoceros Viper</item>
+        <item>Eastern King Snake</item>
+        <item>Indian Cobra</item>
+    </string-array>
+    <string-array name="pokemon">
+        <item>Pokemon Pichu</item>
+        <item>Cleffa</item>
+        <item>Igglybuff</item>
+        <item>Togepi</item>
+        <item>Tyrogue</item>
+        <item>Smoochum</item>
+        <item>Elekid</item>
+        <item>Magby</item>
+        <item>Azurill</item>
+        <item>Wynaut</item>
+    </string-array>
+    <string-array name="version">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice cream Sandwich</item>
+        <item>Jellybean</item>
+        <item>Kitkat</item>
+        <item>Lollipop</item>
+        <item>Marsmallow</item>
+        <item>Nougat</item>
+        <item>Oreo</item>
+        <item>Pia</item>
+    </string-array>
+</resources>
