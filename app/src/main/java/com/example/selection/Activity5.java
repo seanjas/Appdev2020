@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Randomizer extends AppCompatActivity {
+public class Activity5 extends BaseActivity {
     EditText txtPlace1,txtPlace2,txtPlace3,txtPlace4,txtPlace5,txtPlace6,txtStart1,txtStart2,txtStart3,txtStart4,txtStart5,txtStart6,txtName,txtxAmounts;
     Button btnPlace,btnStart;
     TextView lblPrize,lblWin;
@@ -29,9 +29,19 @@ public class Randomizer extends AppCompatActivity {
     final double jackpot =50000000;
 
     @Override
+    protected int getLayoutResId() {
+        return R.layout.activity_randomizer;
+    }
+
+    @Override
+    protected String getActivityName() {
+        return "Activity 5";
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_randomizer);
+
 
         LottoBalls = new ArrayList<>();
 
@@ -104,9 +114,7 @@ public class Randomizer extends AppCompatActivity {
         };
         myhandler.post(run);
     }
-    private int randomNumber(int min, int max) {
-        return rnd.nextInt(max+1-min)+ min;
-    }
+
 
     private void generateLottoBalls(){
         LottoBalls.clear();

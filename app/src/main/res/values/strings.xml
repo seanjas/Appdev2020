@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IT117 HAMIMA A. DALANO</string>
+    <string name="app_name">IT117 Jasani</string>
     <string-array name="types">
         <item>dog</item>
         <item>cat</item>
@@ -69,5 +69,17 @@
         <item>Nougat</item>
         <item>Oreo</item>
         <item>Pia</item>
+    </string-array>
+
+    <string-array name="apps">
+        <item>Activity 1</item>
+        <item>Activity 2</item>
+        <item>Activity 3</item>
+        <item>Activity 4</item>
+        <item>Activity 5</item>
+        <item>Activity 6</item>
+        <item>Activity 7</item>
+        <item>Activity 8</item>
+        <item>Others</item>
     </string-array>
 </resources>

@@ -13,15 +13,26 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MyPet extends AppCompatActivity {
+public class Activity3 extends BaseActivity {
     AutoCompleteTextView txtType,txtBreed;
     Button btnAdopt;
     String [] breeds;
     ArrayAdapter<String> adapter;
+
+    @Override
+    protected int getLayoutResId() {
+        return R.layout.activity_my_pet;
+    }
+
+    @Override
+    protected String getActivityName() {
+        return "Activity 3";
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_pet);
+
 
         txtType=findViewById(R.id.txtType);
         txtBreed=findViewById(R.id.txtBreed);

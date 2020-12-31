@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.selection">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,18 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <!-- <activity android:name=".Randomizer"></activity> -->
-        <!-- <activity android:name=".LoopTimer"></activity> -->
-        <!-- <activity android:name=".MyPet"></activity> -->
-        <!-- <activity android:name=".MainActivity" /> -->
-<!--        <activity android:name=".Randomizer">-->
-        <activity android:name=".BudgetBuddy">
+        <activity android:name=".Activity7"></activity>
+        <activity android:name=".Activity7" />
+        <activity android:name=".ViewWebsite" />
+        <activity android:name=".Activity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".Activity4" />
+        <activity android:name=".Activity5" />
+        <activity android:name=".Activity6" />
     </application>
 
 </manifest>

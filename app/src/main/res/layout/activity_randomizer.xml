@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#03A9F4"
+    android:background="#DAF7F4"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".Randomizer">
+    tools:context=".Activity5">
 
     <TextView
         android:id="@+id/txtLotto"
@@ -100,7 +100,7 @@
         android:id="@+id/btnPlace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
+        android:background="#0626FA"
         android:text="PLACE  BET"
         android:textSize="30sp" />
 
@@ -174,7 +174,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#F44336"
+            android:background="#4CAF50"
             android:text="START"
             android:textSize="30sp" />
     </LinearLayout>

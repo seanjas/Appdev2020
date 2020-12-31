@@ -3,10 +3,10 @@ package com.example.selection;
 import android.text.InputFilter;
 import android.text.Spanned;
 
-public class InputFilterMinMax implements InputFilter {
+public class InputFilterMinMaxDouble implements InputFilter {
     private double min, max;
 
-    public InputFilterMinMax(double min, double max) {
+    public InputFilterMinMaxDouble(double min, double max) {
         this.min = min;
         this.max = max;
     }

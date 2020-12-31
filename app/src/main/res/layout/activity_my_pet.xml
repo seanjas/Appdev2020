@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CAFCE3"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MyPet">
+    tools:context=".Activity3">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Mima Pet"
+        android:text="My Pet"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -39,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="69dp"
         android:hint="ADOPT"
+        android:background="#0626FA "
         android:textStyle="bold" />
 
 </LinearLayout>

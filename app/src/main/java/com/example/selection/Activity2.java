@@ -1,7 +1,5 @@
 package com.example.selection;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.InputFilter;
@@ -12,15 +10,26 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Selection extends AppCompatActivity {
+public class Activity2 extends BaseActivity {
   EditText txtEmployeeName,txtCode,txtSalary;
   TextView lblNetpay;
   Button btnCalculate;
     Double dblDeduction,dblSalary;
+
+    @Override
+    protected int getLayoutResId() {
+        return R.layout.activity_net_pay;
+    }
+
+    @Override
+    protected String getActivityName() {
+        return "Activity 2";
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_string2);
+
 
        txtEmployeeName=findViewById(R.id.txtEmployeeName);
        txtSalary=findViewById(R.id.txtSalary);
@@ -31,7 +40,7 @@ public class Selection extends AppCompatActivity {
        btnCalculate.setOnClickListener(v->{
 
        });
-        txtSalary.setFilters(new InputFilter[]{ new InputFilterMinMax(1,100000) });
+        txtSalary.setFilters(new InputFilter[]{ new InputFilterMinMaxDouble(1,100000) });
         InputFilter filter = new InputFilter() {
 
             @Override

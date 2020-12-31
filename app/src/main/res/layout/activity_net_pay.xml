@@ -5,12 +5,13 @@
     android:id="@+id/editEnternum1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A6F3DA"
     android:layout_marginLeft="20dp"
 
     android:layout_marginRight="20dp"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".Selection">
+    tools:context=".Activity2">
 
     <TextView
         android:id="@+id/textView6"
